@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration</title>
+
+    <link rel="stylesheet" href="Form.css" />
+  </head>
+  <body>
+    <form>
+      <div class="form">
+        <h2>Registration</h2>
+
+        <label for="First name">First Name</label>
+        <input type="text" placeholder="Enter Name" minlength="3" required />
+        <label for="First name">Last name</label>
+        <input
+          type="text"
+          placeholder="Enter Last name"
+          minlength="3"
+          required
+        />
+        <label for="First name">Phone number</label>
+        <input type="text" placeholder="Enter Phone number" required />
+        <label for="First name">Email</label>
+        <input
+          type="Email"
+          placeholder="Enter Email"
+          must="(@.com)"
+          minlength="10"
+          required
+        />
+        <label for="Gender">Select Gender</label>
+        <select class="select" name="Gender" id="Gender">
+          <option value="Male">Male</option>
+          <option value="Male">Female</option>
+          <option value="Male">Prefer Not</option>
+        </select>
+        <label for="dob">Date Of Birth</label>
+        <input class="dob" type="date" name="dob" id="dob" />
+        <label for="Favcolor">Choose Favourite Color</label>
+        <input id="color" type="color" id="Favcolor" value="#ff00ff" /> <br />
+        <input type="button" value="Register" />
+        <p class="Already">
+          Already Have an Account <a href="Login.html">Login</a>
+        </p>
+        <small
+          >By Registering You agreed to our
+          <a href="#">Terms and Conditions</a></small
+        >
+      </div>
+    </form>
+  </body>
+</html>
